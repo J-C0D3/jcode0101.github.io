@@ -64,7 +64,7 @@ body main h1{
     margin-top: 10px;
     margin-left: 29px;
     padding: 0px;
-    width:375px;   
+    width:240px;   
     background-color: #ffffffc7; 
     border-radius: 30px;
     box-shadow: 2px 2px 10px rgb(53, 53, 53);
@@ -77,16 +77,18 @@ body main h1{
 }
 .title{
     font-family: Bebas Neue ;
-    font-size: 27px;
+    font-size: 23px;
     font-weight: lighter;
     padding: 5px;
     text-align: center;
+    margin-top: 5px;
     color: rgba(0, 0, 0, 0.842);
     text-decoration-style: solid;
 }
 .desc{
     margin-top: 5px;
     text-align: center;
+    padding:10px;
     font-family:  Tahoma, sans-serif;
     color: rgb(0, 0, 0);
 }
