@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding :0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+#calcheading{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+#container{
+    height: 550px;
+    width: 1500px;
+    background-image:linear-gradient(rgba(14, 125, 155, 0.394),rgba(189, 14, 14, 0.3)), url(background.jpg);
+    margin: 30px auto;
+    /* background-color: red; */
+}
+#calculator{
+    width:350px;
+    height: 530px;
+    background-color: rgb(191, 198, 198);
+    margin: 0 auto;
+    top:10px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 3px 14px 3px rgb(0 0 0 / 53%), -1px 13px 6px 5px rgb(0 0 0 / 17%);
+}
+#result{
+    height: 25%;
+    
+}
+#history{
+    text-align: right;
+    height: 25px;
+    margin: 0 20px;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(115, 115, 115);
+}
+
+#output{
+    text-align: right;
+    height: 60px;
+    font-size: 22px;
+    margin:10px 20px;
+    font-weight: bold;
+    padding-top: 15px;
+
+}
+#keyboard{
+    height: 75%;
+    margin-left: 17px;
+}
+.operator ,.number, .empty{
+    width: 50px;
+    height:50px;
+    margin: 15px;
+    /* padding-left: 15px; */
+    float: left;
+    border-radius: 50%;
+    border-style: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.number, .empty{
+    background-color: rgb(191, 198, 198);
+}
+.number,.operator{
+    cursor: pointer;
+}
+.number:active, .operator:active{
+    /* background-color: rgb(116, 118, 118); */
+    font-size: 17px;
+}
+.number:focus, .operator:focus, .empty:focus{
+    outline: 0;
+}
+button:nth-child(4){
+    font-size: 30px;
+    background-color: blueviolet;
+}
+button:nth-child(8){
+    font-size: 30px;
+    background-color: rgb(248, 64, 64);
+}
+button:nth-child(12){
+    font-size: 30px;
+    background-color: rgb(206, 114, 16);
+}
+button:nth-child(16){
+    font-size: 30px;
+    background-color: rgb(25, 195, 221);
+}
+button:nth-child(20){
+    font-size: 30px;
+    background-color: rgb(211, 70, 157);
+}
